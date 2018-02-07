@@ -77,10 +77,10 @@ public class FilteringApples{
         {
      	   if(o instanceof Apple)
      	   {
-     		 /*  if(((Apple) o).getColor().equals("green"))
+     		   if(((Apple) o).getColor().equals("green"))
      		   {
      			   return true;
-     		   }*/
+     		   }
      	       if(((Apple) o).getColor().equals("green") && ((Apple) o).getWeight()>0)
  				{
  						return true;
